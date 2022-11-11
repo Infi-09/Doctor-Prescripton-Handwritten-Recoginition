@@ -6,15 +6,13 @@
 ```
 git clone https://github.com/Infi-09/Doctor-Prescripton-Handwritten-Recoginition.git
 ```
-After downloading the repo, you have to download the datasets and models (for more info look into [data](data/) and [models](models/) folders).
+After downloading the repo, you have to download the datasets and models.                                                            
+Dataset - https://www.robots.ox.ac.uk/~vgg/data/text                                                                          
+Models - In Digit folder.
 
 ### 2. Requirements
-The project is created using Python 3.6 with Jupyter Notebook. I recommend using Anaconda. If you have it, you can run the installation as:
-```
-conda create --name ocr-env --file environment.yml
-conda activate ocr-env
-```
-Main libraries (all required libraries are in [reqiurements.txt):
+The project is created using Python 3.6 with Jupyter Notebook
+Main libraries (all required libraries are in [reqiurements.txt](reqiurements.txt):
 * numpy==1.17.2
 * opencv-python==4.4.0.42
 * pillow==6.1.0 
@@ -25,4 +23,4 @@ Main libraries (all required libraries are in [reqiurements.txt):
 With all required libraries installed and cloned repo, run `jupyter notebook` in the directory of the project. Then you can work on the particular notebook.
 
 ## Contributing
-Best way how to get involved is through creating [GitHub issues](https://github.com/Breta01/handwriting-ocr/issues) or solving one! If there aren't any issues you can contact me directly on email.
+Best way how to get involved is through creating [GitHub issues](https://github.com/Infi-09/Doctor-Prescripton-Handwritten-Recoginition/issues) or solving one! If there aren't any issues you can contact me directly on email.
